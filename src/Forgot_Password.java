@@ -13,6 +13,7 @@ public class Forgot_Password extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel2 = new javax.swing.JLabel();
         MoveBar = new javax.swing.JLabel();
         Close = new javax.swing.JLabel();
         Minimize = new javax.swing.JLabel();
@@ -38,6 +39,12 @@ public class Forgot_Password extends javax.swing.JFrame {
         setUndecorated(true);
         setResizable(false);
         getContentPane().setLayout(null);
+
+        jLabel2.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setText("Exit");
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(630, 240, 260, 80);
 
         MoveBar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         MoveBar.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
@@ -213,5 +220,6 @@ public class Forgot_Password extends javax.swing.JFrame {
     private javax.swing.JLabel UserName;
     private javax.swing.JTextField UserNameTxt;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     // End of variables declaration//GEN-END:variables
 }
